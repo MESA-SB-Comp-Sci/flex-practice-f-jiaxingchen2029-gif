@@ -107,7 +107,6 @@ on the children, the rest are properties you have used in past challenges
   height: 320px;
   display:flex;
   flex-direction: column;
-  flex: 1;
     /* add code below */
 
 }
@@ -116,6 +115,7 @@ on the children, the rest are properties you have used in past challenges
   background-color: lightgrey;
   display: flex;
   justify-content: space-around;
+  flex: 1;
   /* add code below */
 
 
@@ -125,6 +125,8 @@ on the children, the rest are properties you have used in past challenges
   background-color: darkgrey;
   display: flex;
   justify-content: space-around;
+  flex:1;
+  align-items: end;
   /* add code below */
 }
 
@@ -154,6 +156,8 @@ on the children, the rest are properties you have used in past challenges
 
   width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
     /* 
     there are two properties missing here 
     one to turn it into a flex container and another to get
@@ -164,6 +168,7 @@ on the children, the rest are properties you have used in past challenges
 .c-7-header {
   background-color: steelblue;
   height: 60px;
+  display: flex;
   /* there is one property missing here, 
   This property is used on children,
   it allows it to take up any empty space
@@ -173,7 +178,9 @@ on the children, the rest are properties you have used in past challenges
 }
 
 .c-7-middle {
-    /* 
+   display: flex; 
+   flex: 1;
+  /* 
 
     two missing properties here 
     1.one to turn this into a flex container
@@ -187,6 +194,7 @@ on the children, the rest are properties you have used in past challenges
 
 .c-7-sidebar {
   background-color: coral;
+  flex: 1;
 /*   This property is used on children,
   it allows it to take up any empty space */
 
@@ -194,6 +202,7 @@ on the children, the rest are properties you have used in past challenges
 
 .c-7-main {
   background-color: lightgreen;
+  flex: 1;
   /*   This property is used on children,
   it allows it to take up any empty space */
 
@@ -201,6 +210,7 @@ on the children, the rest are properties you have used in past challenges
 
 .c-7-footer {
   background-color: steelblue;
+  flex: 1;
   /*   This property is used on children,
   it allows it to take up any empty space */
 
